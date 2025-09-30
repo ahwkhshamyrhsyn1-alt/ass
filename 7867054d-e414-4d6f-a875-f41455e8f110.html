@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <base target="_self">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حوزه علمیه صالحیه مکتب صادق کازرون</title>
+    <meta name="description" content="حوزه علمیه صالحیه مکتب صادق کازرون - مرکز تخصصی علوم دینی و معارف اسلامی">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1a365d",
+                        secondary: "#2d3748", 
+                        gold: "#d4af37",
+                        turquoise: "#40e0d0",
+                        ivory: "#fffff0"
+                    },
+                    fontFamily: {
+                        'vazir': ['Vazir', 'Tahoma', 'sans-serif'],
+                        'nastaliq': ['Noto Naskh Arabic', 'serif']
+                    },
+                    backgroundImage: {
+                        'islamic-pattern': "url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%231a365d\" fill-opacity=\"0.1\"%3E%3Cpath d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')"
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazir:wght@300;400;500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Vazir', Tahoma, sans-serif;
+        }
+        
+        .islamic-border {
+            border: 3px solid #d4af37;
+            border-image: 
+                repeating-linear-gradient(
+                    45deg,
+                    #1a365d,
+                    #1a365d 10px,
+                    #d4af37 10px,
+                    #d4af37 20px
+                ) 1;
+        }
+        
+        .pattern-bg {
+            background-color: #fffff0;
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(212, 175, 55, 0.1) 2px, transparent 2px),
+                radial-gradient(circle at 75% 75%, rgba(64, 224, 208, 0.1) 2px, transparent 2px);
+            background-size: 40px 40px;
+        }
+        
+        .tile-pattern {
+            background: 
+                linear-gradient(45deg, #fffff0 25%, transparent 25%, transparent 75%, #fffff0 75%, #fffff0),
+                linear-gradient(45deg, #fffff0 25%, transparent 25%, transparent 75%, #fffff0 75%, #fffff0);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-ivory pattern-bg">
+    <!-- هدر -->
+    <header class="bg-primary text-white shadow-xl">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex items-center justify-between">
+                <div class="text-center">
+                    <h1 class="text-2xl md:text-3xl font-bold mb-2">حوزه علمیه صالحیه</h1>
+                    <p class="text-gold text-sm md:text-base">مکتب صادق کازرون</p>
+                </div>
+                <div class="hidden md:flex space-x-6 space-x-reverse">
+                    <a href="#" class="hover:text-gold transition-colors">خانه</a>
+                    <a href="#" class="hover:text-gold transition-colors">درباره حوزه</a>
+                    <a href="#" class="hover:text-gold transition-colors">دروس و برنامه‌ها</a>
+                    <a href="#" class="hover:text-gold transition-colors">اساتید</a>
+                    <a href="#" class="hover:text-gold transition-colors">تماس با ما</a>
+                </div>
+                <button class="md:hidden text-white">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- بنر اصلی -->
+    <section class="relative bg-gradient-to-r from-primary to-secondary text-white py-16">
+        <div class="absolute inset-0 tile-pattern opacity-10"></div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">به حوزه علمیه صالحیه خوش آمدید</h2>
+            <p class="text-lg md:text-xl mb-8">مرکز تخصصی علوم دینی و معارف اسلامی در کازرون</p>
+            <div class="flex justify-center space-x-4 space-x-reverse">
+                <button class="bg-gold text-primary px-8 py-3 rounded-lg hover:bg-yellow-500 transition-colors font-semibold">
+                    ثبت نام طلبه‌ها
+                </button>
+                <button class="border-2 border-gold text-white px-8 py-3 rounded-lg hover:bg-gold hover:text-primary transition-colors">
+                    برنامه درسی
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش معرفی -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">معرفی حوزه علمیه</h2>
+                <div class="w-24 h-1 bg-gold mx-auto mb-6"></div>
+                <p class="text-gray-700 text-lg max-w-3xl mx-auto">
+                    حوزه علمیه صالحیه مکتب صادق کازرون، با سابقه‌ای درخشان در تربیت طلاب و فضلای دینی، 
+                    همواره در جهت نشر معارف اسلامی و تربیت نیروهای متعهد و عالم تلاش نموده است.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-white p-6 rounded-lg shadow-lg islamic-border text-center">
+                    <div class="text-4xl text-gold mb-4">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">تربیت طلاب</h3>
+                    <p class="text-gray-600">پرورش نیروهای متعهد و عالم در زمینه علوم دینی و معارف اسلامی</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg islamic-border text-center">
+                    <div class="text-4xl text-gold mb-4">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">دروس تخصصی</h3>
+                    <p class="text-gray-600">ارائه دروس حوزوی از مقدمات تا سطوح عالی با اساتید مجرب</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg islamic-border text-center">
+                    <div class="text-4xl text-gold mb-4">
+                        <i class="fas fa-mosque"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-primary mb-3">محیط معنوی</h3>
+                    <p class="text-gray-600">فضایی آرام و معنوی برای تحصیل و رشد علمی و اخلاقی</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- برنامه درسی -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">برنامه درسی</h2>
+                <div class="w-24 h-1 bg-gold mx-auto mb-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary mb-4">دروس مقدماتی</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fas fa-circle text-gold text-xs ml-2"></i>
+                            <span>صرف و نحو</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle text-gold text-xs ml-2"></i>
+                            <span>معانی و بیان</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle text-gold text-xs ml-2"></i>
+                            <span>منطق</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle text-gold text-xs ml-2"></i>
+                            <span>اصول فقه</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary mb-4">دروس تخصصی</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fas fa-circle text-gold text-xs ml-2"></i>
+                            <span>فقه استدلالی</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle text-gold text-xs ml-2"></i>
+                            <span>تفسیر قرآن</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle text-gold text-xs ml-2"></i>
+                            <span>حدیث شناسی</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle text-gold text-xs ml-2"></i>
+                            <span>کلام اسلامی</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تماس با ما -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">تماس با حوزه</h2>
+                <div class="w-24 h-1 bg-gold mx-auto mb-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary mb-4">اطلاعات تماس</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-gold text-xl ml-3"></i>
+                            <span>کازرون، خیابان امام، حوزه علمیه صالحیه</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-gold text-xl ml-3"></i>
+                            <span>۰۷۱-۴۲۳۴۵۶۷۸</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-gold text-xl ml-3"></i>
+                            <span>info@salafieh-kazerun.ir</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary mb-4">ساعات کاری</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span>شنبه تا چهارشنبه:</span>
+                            <span class="text-gold font-semibold">۷:۳۰ - ۱۴:۰۰</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>پنجشنبه:</span>
+                            <span class="text-gold font-semibold">۷:۳۰ - ۱۲:۰۰</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>جمعه:</span>
+                            <span class="text-gold font-semibold">تعطیل</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer class="bg-primary text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">حوزه علمیه صالحیه</h4>
+                    <p class="text-gray-300">مکتب صادق کازرون - مرکز تخصصی علوم دینی و معارف اسلامی</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">لینک‌های سریع</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-gold">خانه</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-gold">درباره حوزه</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-gold">برنامه درسی</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-gold">تماس با ما</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">تماس با ما</h4>
+                    <p class="text-gray-300">کازرون، خیابان امام</p>
+                    <p class="text-gray-300">تلفن: ۰۷۱-۴۲۳۴۵۶۷۸</p>
+                    <p class="text-gray-300">ایمیل: info@salafieh-kazerun.ir</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">پیوندها</h4>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <a href="#" class="text-gray-300 hover:text-gold text-xl"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-gold text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-gold text-xl"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-600 mt-8 pt-8 text-center">
+                <p class="text-gray-300">© ۱۴۰۲ حوزه علمیه صالحیه مکتب صادق کازرون. تمام حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // داده‌های حوزه علمیه
+        const courses = {
+            "basic": [
+                "صرف و نحو",
+                "معانی و بیان", 
+                "منطق",
+                "اصول فقه",
+                "بلاغت"
+            ],
+            "advanced": [
+                "فقه استدلالی",
+                "تفسیر قرآن",
+                "حدیث شناسی", 
+                "کلام اسلامی",
+                "رجال و درایه"
+            ]
+        };
+
+        // مدیریت کلیک روی لینک‌ها
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                console.log('Navigation to:', link.getAttribute('href'));
+            });
+        });
+
+        // مدیریت دکمه‌ها
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('click', () => {
+                if(button.textContent.includes('ثبت نام')) {
+                    alert('فرم ثبت نام طلبه‌ها به زودی فعال خواهد شد');
+                } else if(button.textContent.includes('برنامه درسی')) {
+                    alert('برنامه درسی ترم جاری در حال آماده‌سازی است');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
